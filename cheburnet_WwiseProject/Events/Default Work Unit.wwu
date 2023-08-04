@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F3708390-6F8C-41DA-B5E5-75E5A63A7A06}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{F3708390-6F8C-41DA-B5E5-75E5A63A7A06}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AMB" ID="{252FC281-3BC8-4CC0-A5EC-B0720AA960AA}" ShortID="659668426">
+					<ChildrenList>
+						<Event Name="Play_AMB_Ambience_Main" ID="{65161FD8-473D-45F9-B46E-DCE2067622DD}">
+							<ChildrenList>
+								<Action Name="" ID="{82577091-E97C-47AD-9F22-56643E6429C5}" ShortID="935471583">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Main_Ambience_Loop" ID="{FAE06742-4FDD-4363-A22D-CCB2C0B7C27B}" WorkUnitID="{E2493F50-8E02-44B7-9FBF-A0B79050A600}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_AMB_Ambience_Main" ID="{95BB4F96-06CE-4676-8C7F-EFC7DDA236F7}">
+							<ChildrenList>
+								<Action Name="" ID="{D983CFE6-30A6-41A4-A138-DB25F127E522}" ShortID="91663206">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Main_Ambience_Loop" ID="{FAE06742-4FDD-4363-A22D-CCB2C0B7C27B}" WorkUnitID="{E2493F50-8E02-44B7-9FBF-A0B79050A600}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{E6E69144-F1AE-453C-ADBD-35F6C31ED0A5}" ShortID="591719832"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
